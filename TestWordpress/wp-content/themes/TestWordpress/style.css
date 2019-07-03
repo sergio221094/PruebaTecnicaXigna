@@ -1,0 +1,100 @@
+/*
+Theme Name: TestWordpress
+Theme URI: 
+Description: Prueba Técnica
+Version: 1
+Author: Sergio Velásquez
+Author URL:
+*/
+
+@font-face {
+    font-family: OpenSans-Bold;
+    src: url(assets/fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: OpenSans-Light;
+    src: url(assets/fonts/OpenSans-Light.ttf);
+}
+
+h1 {
+    font-family: OpenSans-Bold;
+}
+
+h3 {
+    font-family: OpenSans-Light;
+}
+
+iframe {
+    width: 560px;
+    height: 315px;
+    -webkit-box-shadow: 0px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 23px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 23px 0px rgba(0, 0, 0, 0.75);
+}
+
+html,
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+@media (max-width: 1366px) {
+    iframe {
+        width: 378px;
+        height: 212px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: smaller;
+    }
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+}
+
+header {
+    border: black 1px solid;
+    padding: 60px;
+    text-align: center;
+    color: white;
+    background: rgba(14, 171, 228, 1);
+    background: -moz-linear-gradient(top, rgba(14, 171, 228, 1) 0%, rgba(0, 115, 187, 1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(14, 171, 228, 1)), color-stop(100%, rgba(0, 115, 187, 1)));
+    background: -webkit-linear-gradient(top, rgba(14, 171, 228, 1) 0%, rgba(0, 115, 187, 1) 100%);
+    background: -o-linear-gradient(top, rgba(14, 171, 228, 1) 0%, rgba(0, 115, 187, 1) 100%);
+    background: -ms-linear-gradient(top, rgba(14, 171, 228, 1) 0%, rgba(0, 115, 187, 1) 100%);
+    background: linear-gradient(to bottom, rgba(14, 171, 228, 1) 0%, rgba(0, 115, 187, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#0eabe4', endColorstr='#0073bb', GradientType=0);
+    border-block-color: black;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+}
+
+.contenedor {
+    margin: 5%;
+    text-align: center;
+}
+
+.img-numero {
+    margin: 2%;
+}
+
+.imagen-cepillo {
+    max-width: 50%;
+    height: auto;
+}
+
+.center {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+}
